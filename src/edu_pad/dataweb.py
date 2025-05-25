@@ -38,6 +38,9 @@ class DataWeb:
 
             df=pd.DataFrame(tabla_valores,columns=encabezado)
             #df.to_excel("poblacion.xlsx",index=False)
+            print("Datos obtenidos correctamente")
+            print("*******************************************************")
+            print(df.head())
             return df
 
 

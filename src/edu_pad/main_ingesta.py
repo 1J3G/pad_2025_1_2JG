@@ -1,5 +1,5 @@
 import pandas as pd
-from database import Database
+from src.edu_pad.database import Database
 
 
 def main():

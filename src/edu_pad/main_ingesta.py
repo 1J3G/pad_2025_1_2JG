@@ -5,7 +5,7 @@ from src.edu_pad.database import Database
 def main():
 
     db=Database()
-    df=pd.read_csv("/pad_2025_1_2JG/static/csv/data_extractor.csv")
+    df=pd.read_csv("src/edu_pad/static/csv/data_extractor.csv")
     df_db=db.guardar_df(df)
     df_db2=db.obtener_datos() # capa 3
     #df.to_csv("poblacion.csv")

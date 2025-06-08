@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
-WORKDIR /pad_2025_1_2_JG
+WORKDIR /pad_2025_1_2JG
 
 COPY . .
 
